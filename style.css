@@ -1,45 +1,49 @@
 body {
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-flow: column nowrap;
+    box-sizing: border-box;
     align-items: center;
-    background-color: #1b0929;
+    background-color: rgb(6 6 55);
 }
 
 button {
-    border: 2px solid black;
-    font-size: 1em;
-    margin-bottom: 2em;
-    padding: 10px 25px;
-    background-color: #3a095e;
-    color: rgb(178, 192, 255);
-    transition: transform 0.1s ease, box-shadow 0.1s ease, border 0.5s ease;
+    background-color: #3209ff;
+    color: white;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-size: larger;
+    margin: .5em 0 0em 0;
+    padding: 15px 30px; 
+    box-sizing: border-box;
+    transition: border 0.3s ease;
 }
 
 button:hover {
-    border: 2px solid blue;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    border: 3px solid rgb(32, 158, 0);
 }
 
-#divContainer {
-    display: flex;
+#divContainer{
+    display: inline-block;
     flex-wrap: wrap;
-    width: 480px;
-    border: 2px solid rgb(77, 1, 255);
-    margin: 0 auto;
+    border: 2px solid #bcafff;
+    margin: 1em auto;
 }
 
-.divRow {
+.divRows{
     display: flex;
     flex-wrap: nowrap;
 }
 
 .divItems {
-    width: 30px; 
-    height: 30px; 
+    width: 15px;
+    height: 15px;
     background-color: #ccc;
-    border: 1.5px solid #201e1e; 
-    box-sizing: border-box; 
+    border: 1px solid black;
+    box-sizing: border-box;
 }
 
 
-/*LISTO*/
+
+/*By Mauricio Lugo*/
