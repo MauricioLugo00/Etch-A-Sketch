@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#divContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 480px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black; /* Para visualizar el contenedor */
+}
+
+.divRow {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.divItems {
+    width: 30px; 
+    height: 30px; 
+    background-color: #ccc;
+    border: 1px solid #201e1e; 
+    box-sizing: border-box; 
+}
